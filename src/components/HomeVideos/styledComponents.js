@@ -6,20 +6,20 @@ export const NoVideosView = styled.div`
   justify-content: center;
   align-items: center;
   background: none;
-  padding: 20px; /* Added padding for better spacing */
-  min-height: 100vh; /* Full height for centering */
+  padding: 20px; 
+  min-height: 100vh;
 `
 
 export const NoVideosImage = styled.img`
   width: 200px;
-  transition: transform 0.3s; /* Smooth scaling effect */
+  transition: transform 0.3s;
 
   @media screen and (min-width: 768px) {
     width: 450px;
   }
 
   &:hover {
-    transform: scale(1.05); /* Scale up on hover */
+    transform: scale(1.05);
   }
 `
 
@@ -27,16 +27,16 @@ export const NoVideosHeading = styled.h1`
   font-family: Roboto;
   font-size: 25px;
   color: ${props => props.headingColor};
-  margin: 20px 0; /* Space above and below the heading */
-  text-align: center; /* Center the heading */
+  margin: 20px 0; 
+  text-align: center; 
 `
 
 export const NoVideosNote = styled.p`
   font-family: Roboto;
   font-size: 18px;
   color: ${props => props.noteColor};
-  text-align: center; /* Center the note */
-  margin-bottom: 20px; /* Space below the note */
+  text-align: center;
+  margin-bottom: 20px; 
 `
 
 export const RetryButton = styled.button`
@@ -44,10 +44,10 @@ export const RetryButton = styled.button`
   background-color: #4f46e5;
   border-radius: 3px;
   color: #ffffff;
-  padding: 10px 15px; /* Simplified padding */
+  padding: 10px 15px; 
   font-family: Roboto;
   font-size: 15px;
-  cursor: pointer; /* Pointer cursor on hover */
+  cursor: pointer; 
   transition: background-color 0.3s, transform 0.2s;
 
   &:hover {
