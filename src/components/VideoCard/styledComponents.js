@@ -11,7 +11,7 @@ export const TrendingListItem = styled.li`
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
-  transition: transform 0.2s; /* Smooth scaling effect */
+  transition: transform 0.2s; 
 
   @media screen and (min-width: 768px) {
     flex-direction: row;
@@ -19,13 +19,13 @@ export const TrendingListItem = styled.li`
   }
 
   &:hover {
-    transform: scale(1.02); /* Slightly scale up on hover */
+    transform: scale(1.02); 
   }
 `
 
 export const TrendingThumbNailImage = styled.img`
   width: 100%;
-  border-radius: 8px; /* Rounded corners for the thumbnail */
+  border-radius: 8px; 
 
   @media screen and (min-width: 768px) {
     width: 300px;
@@ -45,7 +45,7 @@ export const TrendingProfileImage = styled.img`
   margin: 20px;
 
   @media screen and (min-width: 768px) {
-    display: none; /* Hide on larger screens */
+    display: none; 
   }
 `
 
@@ -64,11 +64,11 @@ export const TrendingTitle = styled.p`
   font-family: 'Roboto';
   font-size: 15px;
   color: ${props => props.color};
-  margin: 0; /* Remove default margin */
-  transition: color 0.3s; /* Smooth transition for text color */
+  margin: 0; 
+  transition: color 0.3s; 
 
   ${TrendingListItem}:hover & {
-    color: #4f46e5; /* Change color on hover */
+    color: #4f46e5; 
   }
 `
 
@@ -76,16 +76,16 @@ export const TrendingChannelName = styled.p`
   font-family: 'Roboto';
   font-size: 13px;
   color: ${props => props.color};
-  margin: 0; /* Remove default margin */
-  opacity: 0.8; /* Slightly faded for a subtle effect */
+  margin: 0; 
+  opacity: 0.8; 
 `
 
 export const TrendingViewsAndDate = styled.p`
   font-family: 'Roboto';
   font-size: 12px;
   color: ${props => props.color};
-  margin: 0; /* Remove default margin */
-  opacity: 0.6; /* Slightly faded for a subtle effect */
+  margin: 0; 
+  opacity: 0.6; 
 `
 
 export const TrendingDot = styled.span`
@@ -94,5 +94,5 @@ export const TrendingDot = styled.span`
   border-radius: 50%;
   padding-left: 5px;
   padding-right: 5px;
-  background-color: ${props => props.color || '#000'}; /* Default color */
+  background-color: ${props => props.color || '#000'}; 
 `
